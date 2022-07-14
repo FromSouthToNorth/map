@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "title": "神仙树",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0448654651496, 30.611715213171536]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "火车南站",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.06366728629257, 30.60774212675699]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "三瓦窑",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.07528654110706, 30.606535011582807]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "琉璃场",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.09648382782882, 30.61011223814657]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "四川师大",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.1136249238192, 30.61166952730578]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "狮子山",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.12180799256402, 30.618324607182686]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "大观",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.13019726200582, 30.62395160537767]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "成都东客站",
+      "properties": {
+        "name": "passenger-station-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.13836398003968, 30.63143659177966]
+      }
+    }
+  ]
+}

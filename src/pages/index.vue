@@ -6,8 +6,14 @@ import MapboxLanguage from '@mapbox/mapbox-gl-language'
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder'
 import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css'
 import geojson from '~/data/geojson.json'
+import pathjson1 from '~/data/path1.json'
+import pathjson2 from '~/data/path2.json'
+import pathjson3 from '~/data/path3.json'
+import chengduMetroMarkerJson from '~/data/chengduMetroMarkerJson.json'
+// import chengduMetroMarkerJson2 from '~/data/chengduMetroMarkerJson2.json'
+import shenxianshuchengdudongMetroMarkerJson2 from '~/data/shenxianshu-chengdudong-metroMarkerJson.json'
 
-mapboxgl.accessToken = ''
+mapboxgl.accessToken = 'pk.eyJ1IjoiaHlzZSIsImEiOiJja3c0ZDNxdTIwNHk1MnBtem5yZ2s4MDJmIn0.Bc8fEfsCPoB_ihTfnQ6zbg'
 
 const lngLat = reactive({
   lng: 0,
@@ -18,7 +24,7 @@ function initMap() {
     container: 'map',
     style: 'mapbox://styles/mapbox/satellite-streets-v11',
     center: [103.99414066575957, 30.482608517879285],
-    zoom: 6,
+    zoom: 10,
     projection: 'globe',
   })
   if (mapboxgl.getRTLTextPluginStatus() !== 'loaded')
@@ -36,11 +42,14 @@ function initMap() {
     //   .setHTML(`<h1 style="color: #121212">${lng} ${lat}</h1>`)
     //   .addTo(map)
   })
-  for (const marker of geojson.features) {
+  for (const marker of chengduMetroMarkerJson.features) {
     const el = document.createElement('img')
     const width = marker.properties.iconSize[0]
     const height = marker.properties.iconSize[1]
     el.className = 'marker'
+    if (marker.properties.background)
+      el.style.background = marker.properties.background
+    el.style.borderRadius = '50%'
     el.src = getImageUrl(marker.properties.name)
     el.style.width = `${width}px`
     el.style.height = `${height}px`
@@ -51,6 +60,67 @@ function initMap() {
       .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(`<h3 class="marker-popup-title">${marker.title}</h3>`))
       .addTo(map)
   }
+
+  // for (const marker of chengduMetroMarkerJson2.features) {
+  //   const el = document.createElement('div')
+  //   const width = marker.properties.iconSize[0]
+  //   const height = marker.properties.iconSize[1]
+  //   el.className = 'marker'
+  //   if (marker.properties.background)
+  //     el.style.background = marker.properties.background
+  //   el.style.borderRadius = '50%'
+  //   el.textContent = marker.title
+  //   el.style.width = `${width}px`
+  //   el.style.height = `${height}px`
+  //   el.style.lineHeight = `${height}px`
+  //   el.style.textAlign = 'center'
+  //   el.style.backgroundSize = '100%'
+  //   // Add markers to the map.
+  //   new mapboxgl.Marker(el)
+  //     .setLngLat(marker.geometry.coordinates)
+  //     .addTo(map)
+  // }
+
+  // for (const marker of geojson.features) {
+  //   const el = document.createElement('img')
+  //   const width = marker.properties.iconSize[0]
+  //   const height = marker.properties.iconSize[1]
+  //   el.className = 'marker'
+  //   el.src = getImageUrl(marker.properties.name)
+  //   el.style.width = `${width}px`
+  //   el.style.height = `${height}px`
+  //   el.style.backgroundSize = '100%'
+  //   // Add markers to the map.
+  //   new mapboxgl.Marker(el)
+  //     .setLngLat(marker.geometry.coordinates)
+  //     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(`<h3 class="marker-popup-title">${marker.title}</h3>`))
+  //     .addTo(map)
+  // }
+
+  for (const marker of shenxianshuchengdudongMetroMarkerJson2.features) {
+    const el = document.createElement('img')
+    const width = marker.properties.iconSize[0]
+    const height = marker.properties.iconSize[1]
+    el.className = 'marker'
+    if (marker.properties.background)
+      el.style.background = marker.properties.background
+    el.style.borderRadius = '50%'
+    el.src = getImageUrl(marker.properties.name)
+    el.style.width = `${width}px`
+    el.style.height = `${height}px`
+    el.style.backgroundSize = '100%'
+    // Add markers to the map.
+    new mapboxgl.Marker(el)
+      .setLngLat(marker.geometry.coordinates)
+      .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(`<h3 class="marker-popup-title">${marker.title}</h3>`))
+      .addTo(map)
+  }
+
+  map.on('load', () => {
+    // map.addLayer(pathjson1)
+    map.addLayer(pathjson2)
+    map.addLayer(pathjson3)
+  })
   // lng: 106.47495136721426, lat: 29.718950557366156
 
   // map.addControl(new MapboxGeocoder({
@@ -100,6 +170,7 @@ onMounted(() => {
 }
 
 .marker-popup-title {
+  padding: 2px;
   font-size: 12px;
   font-weight: 600;
   color: #121212;

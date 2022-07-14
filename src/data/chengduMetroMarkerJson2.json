@@ -1,0 +1,460 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "title": "A",
+      "name": "怡心湖-A口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.02417721364276, 30.474277724789815]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "D1",
+      "name": "怡心湖-D1口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.02516074957742, 30.47453816829983]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C2",
+      "name": "怡心湖-C2口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.02518200529232, 30.472684254650744]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C3",
+      "name": "怡心湖-C3口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.02549892777216, 30.473182571757164]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "A",
+      "name": "南湖立交-A口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0304867069155, 30.491899392831996]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B",
+      "name": "南湖立交-B口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0302091642057, 30.490389836945255]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C",
+      "name": "南湖立交-C口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.03093199235053, 30.490246541428135]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "A",
+      "name": "二江寺-A口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.03333814682787, 30.503217392185988]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C",
+      "name": "二江寺-C口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.03338333535385, 30.501733686930976]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B1",
+      "name": "二江寺-B1口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.03301692025212, 30.50179938491523]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B2",
+      "name": "二江寺-B2口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.03291689621454, 30.50094416171764]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "D",
+      "name": "警官学院-D口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.03809895453367, 30.51602064333059]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "A",
+      "name": "骑龙-A口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04124933566862, 30.52746796455547]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B",
+      "name": "骑龙-B口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04204516510487, 30.526907492281282]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C",
+      "name": "骑龙-C口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04305954197213, 30.52818154591533]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B1",
+      "name": "骑龙-B1口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0431627430371, 30.54195046498377]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B1",
+      "name": "民乐-B1口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04313223858549, 30.52873557233346]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B2",
+      "name": "民乐-B2口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04325657221176, 30.54169092977186]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C",
+      "name": "民乐-C口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0445348599236, 30.542078818082842]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B1",
+      "name": "大源-B1口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04347638673562, 30.55281672035281]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C",
+      "name": "大源-C口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04444879299211, 30.550784345044818]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "D",
+      "name": "大源-D口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04515258232112, 30.55332935635886]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "A",
+      "name": "锦城湖-A口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04302503478016, 30.56697915091594]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B",
+      "name": "锦城湖-B口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04339512116582, 30.564971282773726]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C",
+      "name": "锦城湖-C口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04412716261584, 30.565015103164512]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "D",
+      "name": "锦城湖-D口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04468374362995, 30.566137981412936]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "A",
+      "name": "锦城大道-A口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04890326892053, 30.575465071840213]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B",
+      "name": "锦城大道-B口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04853188563175, 30.57745380926528]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C",
+      "name": "锦城大道-C口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0484045857919, 30.577963699998804]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "D",
+      "name": "锦城大道-D口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04689638377295, 30.577810846068203]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "A",
+      "name": "交子大道-A口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04690246131827, 30.584833856460023]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "B",
+      "name": "交子大道-B口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04755736098986, 30.584220689232822]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C1",
+      "name": "交子大道-C1口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04800398127242, 30.5842459881421]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "C2",
+      "name": "交子大道-C2口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04802863814183, 30.583319121072165]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "D",
+      "name": "交子大道-D口",
+      "properties": {
+        "iconSize": [15, 15],
+        "background": "#1890ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 104.04851455414945, 30.584944310933224]
+      }
+    }
+  ]
+}

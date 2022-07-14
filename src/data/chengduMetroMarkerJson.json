@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "title": "怡心湖",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.02499071244938, 30.474161981423023]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "南湖立交",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.03087625754927, 30.49178471957248]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "二江寺",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.03358385814386, 30.502535211788768]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "警官学院",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.03744909896699, 30.51550688513707]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "骑龙",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04189271092486, 30.52820447433149]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "民乐",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04387568882618, 30.543371002722182]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "大源",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04423271187284, 30.552414658478867]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "锦城湖",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04365610839926, 30.56606291583894]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "锦城大道",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04785926521618, 30.577685786551598]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "交子大道",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04774911164276, 30.584344782084386]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "市一医院",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04806272902476, 30.59227988704285]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "石羊立交",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04835282994634, 30.597923048104278]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "神仙树",
+      "properties": {
+        "name": "chengdu-metro-marker",
+        "iconSize": [16, 16],
+        "background": "#fff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04585178989936, 30.61267064842245]
+      }
+    }
+  ]
+}
