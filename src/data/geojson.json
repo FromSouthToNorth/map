@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "title": "荷韵佳苑",
+      "properties": {
+        "name": "map-marker-2",
+        "iconSize": [26, 26]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.99414066575957, 30.482608517879285]
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "碚都佳园",
+      "properties": {
+        "name": "map-marker-1",
+        "iconSize": [26, 26]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.47495136721426, 29.718950557366156]
+      }
+    }
+  ]
+}
