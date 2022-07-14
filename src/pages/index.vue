@@ -7,7 +7,7 @@ import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder'
 import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css'
 import geojson from '~/data/geojson.json'
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiaHlzZSIsImEiOiJja3c0ZDNxdTIwNHk1MnBtem5yZ2s4MDJmIn0.Bc8fEfsCPoB_ihTfnQ6zbg'
+mapboxgl.accessToken = ''
 
 const lngLat = reactive({
   lng: 0,
